@@ -865,7 +865,7 @@ var Bonzi = (function () {
                     value: function (target) {
                         this.runSingleEvent([
                             { type: "text", text: "Hello, " + target + "!" },
-                            { type: "text", text: "Welcome to BonziWORLD Enhanced!", say: "Welcome to BonziWORLD Enhanced!" },
+                            { type: "text", text: "Welcome to BonziWORLD Blockschat Edition!", say: "Welcome to BonziWORLD Blockschat Edition!" },
                             { type: "anim", anim: "praise_fwd", ticks: 15 },
 							{ type: "anim", anim: "backflip", ticks: 15 },
 							{ type: "anim", anim: "cool_fwd", ticks: 30 },
