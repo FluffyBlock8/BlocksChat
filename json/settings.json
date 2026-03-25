@@ -55,7 +55,7 @@
                 "nofuckoff": 3
             },
 			"room_max": 10000,
-			"owner": FluffyBlock,
+			"owner": null,
 			"pitch": {
 				"max": 125,
 				"min": 15,
