@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-  "name": "BonziWORLD - Enhanced",
-  "short_name": "BWE",
+  "name": "BonziWORLD Blockschat Edition",
+  "short_name": "BWBCE",
   "description": "The global leader in the *BEST* gorilla-based chat clients!",
   "icon": [{
     "src": "./icon/icon-128x128.png",
