@@ -1427,8 +1427,8 @@ function linkify(text) {
     Object.defineProperty(Array.prototype, "equals", { enumerable: !1 });
 var undefined,
     loadQueue = new createjs.LoadQueue(),
-    loadDone = ["bonziBlack", "bonziBlue", "bonziBrown", "bonziGreen", "bonziPurple", "bonziRed", "bonziOrange", "bonziYellow", "bonziWhite", "bonziGrey", "bonziGhost", "bonziLime", "bonziMagenta", "bonziCyan", "bonziPink"],
-    loadNeeded = ["bonziBlack", "bonziBlue", "bonziBrown", "bonziGreen", "bonziPurple", "bonziRed", "bonziOrange", "bonziYellow", "bonziWhite", "bonziGrey", "bonziGhost", "bonziLime", "bonziMagenta", "bonziCyan", "bonziPink"];
+    loadDone = ["bonziBlack", "bonziBlue", "bonziBrown", "bonziGreen", "bonziPurple", "bonziRed", "bonziOrange", "bonziYellow", "bonziWhite", "bonziGrey", "bonziGhost", "bonziLime", "bonziMagenta", "bonziCyan", "bonziPink", "a-65"],
+    loadNeeded = ["bonziBlack", "bonziBlue", "bonziBrown", "bonziGreen", "bonziPurple", "bonziRed", "bonziOrange", "bonziYellow", "bonziWhite", "bonziGrey", "bonziGhost", "bonziLime", "bonziMagenta", "bonziCyan", "bonziPink", "a-65"];
 function loadBonzis(callback) {
     loadQueue.loadManifest([
 		{ id: "bonziBlack", src: "./img/agents/black.png" },
@@ -1446,6 +1446,7 @@ function loadBonzis(callback) {
 		{ id: "bonziMagenta", src: "./img/agents/magenta.png" },
 		{ id: "bonziCyan", src: "./img/agents/cyan.png" },
 		{ id: "bonziPink", src: "./img/agents/pink.png" },
+		{ id: "a-65", src: "./img/agents/A-65.png" },
 	]),
         loadQueue.on(
             "fileload",
